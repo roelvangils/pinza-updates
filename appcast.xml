@@ -9,7 +9,7 @@
             <sparkle:shortVersionString>1.10.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/roelvangils/pinza/releases/download/v1.10.0/Pinza.dmg" length="14315123" type="application/octet-stream" sparkle:edSignature="pmFrYxtOM8C7rgS1au8JKVI6tN3n0J4JsWQwZ0rdfA0adQtDo+/cLfW3j3VZvzNqZuyW62FG/NPW+OVsPQb8Dw=="/>
+            <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v1.10.0/Pinza.dmg" length="14315123" type="application/octet-stream" sparkle:edSignature="pmFrYxtOM8C7rgS1au8JKVI6tN3n0J4JsWQwZ0rdfA0adQtDo+/cLfW3j3VZvzNqZuyW62FG/NPW+OVsPQb8Dw=="/>
         </item>
     </channel>
 </rss>
