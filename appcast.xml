@@ -3,6 +3,15 @@
     <channel>
         <title>Pinza</title>
         <item>
+            <title>1.12.1</title>
+            <pubDate>Sat, 16 May 2026 16:05:12 +0200</pubDate>
+            <sparkle:version>202605161604</sparkle:version>
+            <sparkle:shortVersionString>1.12.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v1.12.1/Pinza.dmg" length="14246973" type="application/octet-stream" sparkle:edSignature="MTpbRzC/NKc7KXxoHZV89BM7OdKDM1KmYXrZEY7cKH5yZv7fuu65X1YuOuUTNxURbOcXZNJvMp5q+IJgTR6WAg=="/>
+        </item>
+        <item>
             <title>1.11.0</title>
             <pubDate>Sat, 16 May 2026 00:05:58 +0200</pubDate>
             <sparkle:version>209ea09 00:04</sparkle:version>
@@ -19,15 +28,6 @@
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v1.10.0/Pinza.dmg" length="14315123" type="application/octet-stream" sparkle:edSignature="pmFrYxtOM8C7rgS1au8JKVI6tN3n0J4JsWQwZ0rdfA0adQtDo+/cLfW3j3VZvzNqZuyW62FG/NPW+OVsPQb8Dw=="/>
-        </item>
-        <item>
-            <title>1.12.0</title>
-            <pubDate>Sat, 16 May 2026 14:58:35 +0200</pubDate>
-            <sparkle:version>7b8fa2f 14:57</sparkle:version>
-            <sparkle:shortVersionString>1.12.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v1.12.0/Pinza.dmg" length="14227056" type="application/octet-stream" sparkle:edSignature="QWd7IyMvMoN44Gre0p4IFrcWrBjgFQrkvWcb3bK2Y9BaET9MQvwvnodBfkPCDYaa82zFomBQaWtn0FmsMoObBw=="/>
         </item>
     </channel>
 </rss>
