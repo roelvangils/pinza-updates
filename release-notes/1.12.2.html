@@ -17,6 +17,28 @@ a { color: #0a84ff; }
 </style>
 </head>
 <body>
-
+<h2 dir="auto">New</h2>
+<ul dir="auto">
+<li><strong>Themed Spotify tooltip</strong>: album-art-derived accent color forms the background, with an inline 80×80 cover and a 💿 sliding out from behind it on hover.</li>
+<li><strong>Wraparound keyboard nav</strong>: pressing ↓ on the last recents row jumps to the top; ↑ on the first row jumps to the bottom.</li>
+<li><strong>Hidden utility rows</strong>: Check for Updates, Settings, and Quit are hidden by default and slide in during ⌘⌥ Power Peek.</li>
+<li><strong>⌘U</strong> triggers a manual update check from anywhere in the popover.</li>
+<li><strong>⌘← reopens</strong> the hover tooltip after it's been dismissed (Esc, auto-hide, or any earlier keystroke).</li>
+<li><strong>⌘← dismisses</strong> the row actions menu — symmetric with ⌘→ opening it.</li>
+</ul>
+<h2 dir="auto">Improved</h2>
+<ul dir="auto">
+<li><strong>Poof + sound on delete</strong>: deleting recents rows plays the macOS poof animation with the real Dock-poof sound (toggleable in Settings).</li>
+<li><strong>Focus-after-delete</strong>: deleting a row keeps the next row selected so you can chain ⌫ presses.</li>
+<li><strong>Auto-focus on commit</strong>: pressing ↵ on the primary-copy button now selects the newly-added entry and shows its tooltip — no arrow-down required.</li>
+<li><strong>Unified tooltip layout</strong>: single canonical layout with shared chrome, larger title, footer bar with usage stats or keyboard tip, character-wrapped URLs.</li>
+<li><strong>Power Peek font</strong> bumped 1pt for readability.</li>
+<li><strong>Bottom anchored tooltip footer bar</strong> for every link type with usage info or keyboard hints.</li>
+</ul>
+<h2 dir="auto">Fixed</h2>
+<ul dir="auto">
+<li>Marquee no longer scrolls all rows simultaneously under ⌘⌥ Power Peek.</li>
+<li>Pressing ⌘→ while the tooltip is visible no longer also opens the context menu — it just dismisses the tooltip.</li>
+</ul>
 </body>
 </html>
