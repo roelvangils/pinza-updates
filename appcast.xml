@@ -3,6 +3,15 @@
     <channel>
         <title>Pinza</title>
         <item>
+            <title>1.12.2</title>
+            <pubDate>Sun, 17 May 2026 02:36:08 +0200</pubDate>
+            <sparkle:version>202605170234</sparkle:version>
+            <sparkle:shortVersionString>1.12.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v1.12.2/Pinza.dmg" length="14228135" type="application/octet-stream" sparkle:edSignature="XsRbuTmXDLaRf6KiqA4WaAToBvqeH06o45MelPNYj3dkyVh2DtjyZhhJo+K8Xhc2vZ402dGItyITwJXLM0zMCg=="/>
+        </item>
+        <item>
             <title>1.12.1</title>
             <pubDate>Sat, 16 May 2026 16:05:12 +0200</pubDate>
             <sparkle:version>202605161604</sparkle:version>
@@ -19,15 +28,6 @@
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v1.11.0/Pinza.dmg" length="14347647" type="application/octet-stream" sparkle:edSignature="IurCSrC0aLKCfefWijHZo35s3vy7spJBGnaIIddyfgEQ8QEUcvMn+aj8GCTrJG7qHfyyhuA2qMqyd//53iYIAA=="/>
-        </item>
-        <item>
-            <title>1.10.0</title>
-            <pubDate>Fri, 15 May 2026 23:00:29 +0200</pubDate>
-            <sparkle:version>46cfb6f 22:59</sparkle:version>
-            <sparkle:shortVersionString>1.10.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v1.10.0/Pinza.dmg" length="14315123" type="application/octet-stream" sparkle:edSignature="pmFrYxtOM8C7rgS1au8JKVI6tN3n0J4JsWQwZ0rdfA0adQtDo+/cLfW3j3VZvzNqZuyW62FG/NPW+OVsPQb8Dw=="/>
         </item>
     </channel>
 </rss>
