@@ -17,6 +17,19 @@ a { color: #0a84ff; }
 </style>
 </head>
 <body>
-
+<h2 dir="auto">Pin groups + group filtering</h2>
+<p dir="auto">Right-click a selection of pins to <strong>Group</strong> them — or <strong>Group as…</strong> to name on creation. Right-click a single pin to <strong>Move to Group</strong> an existing one or create a new one inline. Members of a highlighted group light up with a soft yellow band, and the active group's name surfaces as a pill in the hint bar.</p>
+<p dir="auto">Type two characters in the search field and matching group chips appear below it. Click to filter the recents list to that group; ⌘-click to OR-combine. The chips persist across a cleared search field — explicit × to dismiss, with a 2 s grace window so a misclick is recoverable. The search placeholder reads <code class="notranslate">Search 12 pins and 3 groups…</code> normally, <code class="notranslate">Search 7 pins in 2 groups…</code> while filtering.</p>
+<p dir="auto">⌘A now cycles: <strong>group → all visible → back to group</strong>. Group mutations are undoable — ⌘Z reverts a Group / Ungroup / Move to Group / Rename, ⌘⇧Z replays.</p>
+<h3 dir="auto">Polish</h3>
+<ul dir="auto">
+<li><strong>Finder-style merged selection</strong> — a run of adjacent selected rows reads as one continuous rounded shape, regardless of where the colour shifts inside it (yellow ↔ pink ↔ orange).</li>
+<li><strong>Ungroup verb</strong> — when the action would dissolve a group entirely (singleton row, full multi-selection), the right-click item reads "Ungroup" instead of "Remove from Group".</li>
+<li><strong>Counted Remove</strong> — partial multi-selections show <code class="notranslate">Remove 3 items from Group "Trip planning"</code> so the action is honest about its scope.</li>
+<li><strong>Search-match font</strong> — the matched portion of a title no longer shrinks mid-line.</li>
+<li><strong>Rename dialog</strong> — the NSAlert text field is now focused on appear, and the popover stays put while the rename is in flight.</li>
+</ul>
+<h3 dir="auto">Also in this release</h3>
+<p dir="auto">Slack message capture (synthesised ⌘L) and a Slack Workspaces editor in Settings — set a team ID per workspace to copy <code class="notranslate">slack://</code> deep links that open Slack directly instead of the https fallback.</p>
 </body>
 </html>
