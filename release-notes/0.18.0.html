@@ -17,6 +17,22 @@ a { color: #0a84ff; }
 </style>
 </head>
 <body>
-
+<h2 dir="auto">Refreshed post-copy HUD</h2>
+<p dir="auto">The HUD that shows after a copy got a thorough polish pass — bigger icon and bolder document title, a tighter type hierarchy, and a clean entry without the brief flash of square corners. The path / URL line is now set in <strong>JetBrains Mono NL</strong> (bundled), which reads much better than Apple's system monospace.</p>
+<h2 dir="auto">Quicker keyboard interaction</h2>
+<ul dir="auto">
+<li><strong>Press your copy shortcut a second time</strong> with the HUD up to expand the action row. <strong>Press it again</strong> to collapse — no more accidental fresh copies when Pinza grabs your focus.</li>
+<li>The expanded HUD takes keyboard focus <em>without</em> activating Pinza, so <strong>Tab cycles through the buttons</strong> (Remind me… → Remove from History) and Escape dismisses. Your previous app stays in the foreground.</li>
+<li>A small <strong>× close button</strong> appears in the top-right when you hover.</li>
+</ul>
+<h2 dir="auto">Confirmation moments</h2>
+<p dir="auto">Picking <strong>Remind me…</strong>, <strong>Remove from History</strong>, or any <strong>Copy as…</strong> option now plays a centered confirmation inside the HUD ("Reminder set", "Removed from History", "Copied as Markdown") — content blurs behind, the HUD auto-dismisses 2 seconds later. The old floating toast is gone. Press the shortcut during the 2 s if you want to undo the dismissal and pick something else.</p>
+<h2 dir="auto">Animation behaviour</h2>
+<p dir="auto">Every expand / collapse / hover toggle now uses the same bouncy spring — not just the first interaction. Settings → General → <strong>Use Animations</strong> is now the single source of truth: <code class="notranslate">On</code> always animates, <code class="notranslate">Off</code> snaps everything instantly, <code class="notranslate">Follow System</code> defers to macOS Reduce Motion.</p>
+<h2 dir="auto">Small fixes</h2>
+<ul dir="auto">
+<li>The Remind me… menu chrome now matches its sibling buttons exactly (single Liquid Glass pill, no inner border).</li>
+<li>The "Reminder set" message no longer appears twice when triggered from the HUD.</li>
+</ul>
 </body>
 </html>
