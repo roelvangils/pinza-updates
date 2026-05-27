@@ -3,6 +3,15 @@
     <channel>
         <title>Pinza</title>
         <item>
+            <title>0.20.0</title>
+            <pubDate>Wed, 27 May 2026 09:12:27 +0200</pubDate>
+            <sparkle:version>202605270911</sparkle:version>
+            <sparkle:shortVersionString>0.20.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v0.20.0/Pinza.dmg" length="25127223" type="application/octet-stream" sparkle:edSignature="ayiOBR5EVx7LCKoBrT9Z9maoT38nFTOwQMy1C8CkFU50fz3bEXeXLtz+XDRnBsxlysKD6JAjofgdF+at4cC1AA=="/>
+        </item>
+        <item>
             <title>0.19.0</title>
             <pubDate>Tue, 26 May 2026 07:51:49 +0200</pubDate>
             <sparkle:version>202605260750</sparkle:version>
@@ -19,15 +28,6 @@
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v0.18.0/Pinza.dmg" length="25075759" type="application/octet-stream" sparkle:edSignature="1S3g1NNRYTbfsab7WsF5DKtCNCQJQol1LCTWkWvp4cW7sBRlU/Ji3HCuijw2hKcc+gUR6S117HeLVMKyapbKAw=="/>
-        </item>
-        <item>
-            <title>0.17.0</title>
-            <pubDate>Mon, 25 May 2026 10:50:59 +0200</pubDate>
-            <sparkle:version>202605251049</sparkle:version>
-            <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v0.17.0/Pinza.dmg" length="24776648" type="application/octet-stream" sparkle:edSignature="WHsuMtz4fCLSkd8uxrG07sGBxcLPjNOT9S9/+zva6q0LB+ifmwp0mWfs03UGC78RZ2eLqVslpHPF2cif1ev2BA=="/>
         </item>
     </channel>
 </rss>
