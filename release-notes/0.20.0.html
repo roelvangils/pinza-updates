@@ -17,6 +17,19 @@ a { color: #0a84ff; }
 </style>
 </head>
 <body>
-
+<h2 dir="auto">What's new</h2>
+<p dir="auto"><strong>Drag the HUD's icon out as a proxy icon.</strong> Grab the leading icon on the post-copy HUD and drop it straight into Finder, Safari, a text editor, anywhere that accepts a file / URL / link drop. Same payload as clicking the row — now reachable as a drag gesture. Hold ⌥ during the drop to keep the HUD open with a fresh countdown for another grab.</p>
+<p dir="auto"><strong>Rename files in place.</strong> Double-click the title on a file-backed HUD to swap it for an editable field. Press Return to commit; Esc cancels. Changing the extension surfaces a Finder-style "Are you sure you want to change the extension" confirmation with a one-click ⌘Z undo on the success card.</p>
+<p dir="auto"><strong>Drop-zone polish when repositioning the HUD.</strong> The six drop targets that appear while dragging the HUD between screen anchors now fade in with a per-zone cascade, sit on Liquid Glass (Tahoe) / <code class="notranslate">.ultraThinMaterial</code> chrome, and the active target lifts with a subtle white wash. On release the HUD glides to its anchor with an ease-out curve, the action row auto-expands, and the countdown restarts from full.</p>
+<p dir="auto"><strong>Notification-style close button.</strong> The × on the HUD now sits at the top-leading corner with a soft drop shadow and pops larger when the cursor approaches — matching macOS Notification Center's pattern.</p>
+<h2 dir="auto">Under the hood</h2>
+<ul dir="auto">
+<li>Build-iteration speed-ups: framework re-embed cache, incremental resource sync, file splits, and SwiftUI body extractions cut a <code class="notranslate">MenuBarView.swift</code> typecheck pass from ~9 s to ~0.4 s.</li>
+<li><code class="notranslate">make profile-typecheck</code> diagnostic target surfaces slow SwiftUI bodies before they accrete.</li>
+<li><code class="notranslate">QuickLookPresenter</code> <code class="notranslate">@MainActor</code> conformance now isolated to the main actor (Swift 6 readiness).</li>
+<li><code class="notranslate">/run-dev</code> skill reports build time, framework cache state, resource-sync status, and any warnings.</li>
+</ul>
+<h2 dir="auto">Compatibility</h2>
+<p dir="auto">Requires macOS 14 or later. macOS 26 (Tahoe) gets Liquid Glass surfaces on the new HUD chrome; earlier versions fall back to <code class="notranslate">.ultraThinMaterial</code>.</p>
 </body>
 </html>
