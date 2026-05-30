@@ -3,6 +3,15 @@
     <channel>
         <title>Pinza</title>
         <item>
+            <title>0.20.2</title>
+            <pubDate>Sat, 30 May 2026 16:10:58 +0200</pubDate>
+            <sparkle:version>202605301607</sparkle:version>
+            <sparkle:shortVersionString>0.20.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v0.20.2/Pinza.dmg" length="25120757" type="application/octet-stream" sparkle:edSignature="LGNO7VlX4pMu6uFv2RaDxOe3lmrpWghCitZrOWH/+WaQ/fq+uug2arVfernCvhEmIZeY18JX1AsJhAHG3nE+AQ=="/>
+        </item>
+        <item>
             <title>0.20.1</title>
             <pubDate>Fri, 29 May 2026 10:03:32 +0200</pubDate>
             <sparkle:version>202605290954</sparkle:version>
@@ -19,15 +28,6 @@
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v0.20.0/Pinza.dmg" length="25127223" type="application/octet-stream" sparkle:edSignature="ayiOBR5EVx7LCKoBrT9Z9maoT38nFTOwQMy1C8CkFU50fz3bEXeXLtz+XDRnBsxlysKD6JAjofgdF+at4cC1AA=="/>
-        </item>
-        <item>
-            <title>0.19.0</title>
-            <pubDate>Tue, 26 May 2026 07:51:49 +0200</pubDate>
-            <sparkle:version>202605260750</sparkle:version>
-            <sparkle:shortVersionString>0.19.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v0.19.0/Pinza.dmg" length="25261154" type="application/octet-stream" sparkle:edSignature="Nlw/2QP3A3ByQESLJzl7u0P6u3Hyg4M+gb9LOne6aibFYWXozSSVNvpPv+nFlPVF0Ag50/kCq2ohkxCwLP//Bg=="/>
         </item>
     </channel>
 </rss>
