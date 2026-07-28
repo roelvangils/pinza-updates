@@ -17,6 +17,32 @@ a { color: #0a84ff; }
 </style>
 </head>
 <body>
-
+<h2 dir="auto">What's changed</h2>
+<p dir="auto">The biggest release yet — a rebuilt launcher, a new Pro tier, Raindrop.io support, and custom copy formats.</p>
+<h3 dir="auto">Pinza Pro</h3>
+<p dir="auto">A paid tier arrives, with licensing through Gumroad. Pro unlocks Spotlight indexing of your recents, token search filters in the popover, longer history retention, the Bin, and the MCP server.</p>
+<h3 dir="auto">Launcher and HUD</h3>
+<p dir="auto">The launcher has been rebuilt around pin groups: name them, sort them, and drag items between them for real. Pin several items at once from Finder or Things, and drag a whole selection in one go. The HUD gains stacked-card animations, flip-to-reveal, and double-click to pin. YouTube links now preview with a poster, channel row, and subtitle snippets.</p>
+<h3 dir="auto">Raindrop.io</h3>
+<p dir="auto">Save any copied link straight to Raindrop with ⌘D from the HUD. The save popover has a proper combo box, tag autocomplete, and full keyboard access.</p>
+<h3 dir="auto">Custom copy formats</h3>
+<p dir="auto">Build your own output templates with a template editor and snippet library, managed from a new Actions pane. The card notes editor picks up ⌘B / ⌘I / ⌘K for Markdown.</p>
+<h3 dir="auto">Recents</h3>
+<p dir="auto">Recents now group under Pinned / Today / Yesterday headers, with tinted SF Symbol badges for well-known sites and an optional Compact mode for denser rows. History can be exported and imported as JSON.</p>
+<h3 dir="auto">Settings, onboarding and accessibility</h3>
+<p dir="auto">Onboarding is rebuilt as a seven-step flow with an intro video and a live shortcut recorder. The Settings window gets a full-height sidebar and glass search. A new Accessibility pane adds Reduce Motion and High Contrast overrides, and High Contrast now carries through the app's chrome. Settings mirror to <code class="notranslate">~/.config/pinza/config.json</code>.</p>
+<h3 dir="auto">App support</h3>
+<p dir="auto">Safari Web Apps (Add to Dock PWAs) are supported via a new generic strategy. System Settings panes fall back to AppleScript on macOS 27, and browser-highlight capture is noticeably faster thanks to a text-marker fast path.</p>
+<h3 dir="auto">Fixes</h3>
+<ul dir="auto">
+<li>Fixed a main-thread freeze when building Spotlight items</li>
+<li>Fixed a launcher hang caused by pin-list sorting and on-main icon resolution</li>
+<li>Fixed a crash when closing onboarding</li>
+<li>Survived macOS 27's ViewBridge crash in the Raindrop popover</li>
+<li>The launcher no longer misreports counts while rows are stale</li>
+<li>Automatic TCC resets are now limited to once per target per session</li>
+</ul>
+<h2 dir="auto">Install</h2>
+<p dir="auto">Download <code class="notranslate">Pinza.dmg</code> below, open it, drag Pinza.app into Applications.</p>
 </body>
 </html>
