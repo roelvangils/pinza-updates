@@ -3,6 +3,15 @@
     <channel>
         <title>Pinza</title>
         <item>
+            <title>0.23.0</title>
+            <pubDate>Tue, 28 Jul 2026 19:14:34 +0200</pubDate>
+            <sparkle:version>202607281913</sparkle:version>
+            <sparkle:shortVersionString>0.23.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v0.23.0/Pinza.dmg" length="34300883" type="application/octet-stream" sparkle:edSignature="C2MnlYQ/uJCS2HpTTpSrccFGMaK9AcTqWILD5Ahtvbj7pkE+t7vvkBcLPV5Zi9YO1/ZvXsx7tZTu+z/z0eJdAg=="/>
+        </item>
+        <item>
             <title>0.22.0</title>
             <pubDate>Sun, 31 May 2026 18:23:44 +0200</pubDate>
             <sparkle:version>202605311821</sparkle:version>
@@ -19,15 +28,6 @@
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v0.21.0/Pinza.dmg" length="25324364" type="application/octet-stream" sparkle:edSignature="oKFdX+C28kWM1Poznufk5k9ARO2sjHm47Ysg6ZFP/ej1lC0W3h2LzGeQAi8xYo6xXKeYTqAl1ihrcX4InbKLDg=="/>
-        </item>
-        <item>
-            <title>0.20.2</title>
-            <pubDate>Sat, 30 May 2026 16:10:58 +0200</pubDate>
-            <sparkle:version>202605301607</sparkle:version>
-            <sparkle:shortVersionString>0.20.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/roelvangils/pinza-updates/releases/download/v0.20.2/Pinza.dmg" length="25120757" type="application/octet-stream" sparkle:edSignature="LGNO7VlX4pMu6uFv2RaDxOe3lmrpWghCitZrOWH/+WaQ/fq+uug2arVfernCvhEmIZeY18JX1AsJhAHG3nE+AQ=="/>
         </item>
     </channel>
 </rss>
